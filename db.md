@@ -9,13 +9,13 @@ Table name: cars
 - model | VARCHAR(20) | NOTNULL
 - tier | VARCHAR(20) | NULL
 - year | YEAR | NOTNULL
-- fuel_type | VARCHAR(20) | NULL
-- transmission | VARCHAR(20) | NULL
+- fuel_type | ENUM(Benzina, Diesel, Ibrida, Elettrica, GPL, Idrogeno) | NULL      
+- transmission | ENUM(Manuale, Automatico, Semi-automatico, CVT, DCT) | NULL
 - engine_size | SMALLINT | NULL
 - horse_power | SMALLINT | NULL
 - mileage | MEDIUMINT | NULL
 - color | VARCHAR(25) | NULL
-- condition | VARCHAR(20) | NULL
+- condition | ENUM(Nuovo, Usato, Km0) | NULL
 - location | VARCHAR(50) | NOTNULL
 - is_available | TINYINT | NOTNULL | DEFAULT (1)
 - image | NULL | DEFAULT ('default image link')
