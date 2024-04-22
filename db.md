@@ -18,4 +18,6 @@ Table name: cars
 - condition | VARCHAR(20) | NULL
 - location | VARCHAR(50) | NOTNULL
 - is_available | TINYINT | NOTNULL | DEFAULT (1)
+- image | NULL | DEFAULT ('default image link')
 - price | MEDIUMINT | NOTNULL
+- note | TEXT | NULL
