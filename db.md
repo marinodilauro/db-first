@@ -21,3 +21,9 @@ Table name: cars
 - image | NULL | DEFAULT ('default image link')
 - price | MEDIUMINT | NOTNULL
 - note | TEXT | NULL
+
+id | manufacturer | model | tier | year | fuel_type | transmission | engine_size | horse_power | mileage | color | condition | location | is_available | image | price | note | id | manufacturer | model
+:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---
+1
+2
+3
